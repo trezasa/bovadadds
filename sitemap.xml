@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Replace https://www.your-domain.com with your actual domain -->
+  <url><loc>https://www.your-domain.com/index.html</loc></url>
+  <url><loc>https://www.your-domain.com/game.html</loc></url>
+  <url><loc>https://www.your-domain.com/leaderboard.html</loc></url>
+  <url><loc>https://www.your-domain.com/about.html</loc></url>
+  <url><loc>https://www.your-domain.com/blog.html</loc></url>
+  <url><loc>https://www.your-domain.com/contact.html</loc></url>
+  <url><loc>https://www.your-domain.com/faq.html</loc></url>
+  <url><loc>https://www.your-domain.com/privacy.html</loc></url>
+  <url><loc>https://www.your-domain.com/terms.html</loc></url>
+  <url><loc>https://www.your-domain.com/services.html</loc></url>
+  <!-- Add URLs for individual blog posts here as you create them -->
+</urlset>

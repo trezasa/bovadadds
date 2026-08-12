@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /lander.html
+Disallow: /lande.html
+Disallow: /hs.html
+Disallow: /veg.html
+Disallow: /vt.html
+Disallow: /winy.html
+Sitemap: https://www.your-domain.com/sitemap.xml

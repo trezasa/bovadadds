@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="favicon.svg">
+<title>Play Word Scramble | Kids Learning World</title>
+<meta name="description" content="Play Word Scramble! A free educational browser game to improve spelling and vocabulary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="assets/img/logo-retro-gaming-hub.svg" alt="Kids Learning World logo"><span>Kids Learning World</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" class="active">Games</a>
+      <a href="leaderboard.html" >Leaderboard</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Play</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Word Scramble — Find the Hidden Word!</h1>
+    <p>Unscramble the letters to guess the word. Type your answer and press Enter. A great way to practice spelling and build your vocabulary!</p>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="card game-card" style="text-align: center;">
+    <div id="word-scramble-game">
+      <div id="ws-score" style="font-size: 24px; margin-bottom: 20px;">Score: 0</div>
+      <div id="ws-scrambled-word" style="font-size: 48px; letter-spacing: 10px; margin-bottom: 30px; padding: 20px; background: #0A0A23; border-radius: 10px;"></div>
+      <input type="text" id="ws-guess-input" placeholder="Type your guess here..." style="font-size: 24px; text-align: center; max-width: 400px; margin: 0 auto;">
+      <div id="ws-feedback" style="margin-top: 20px; height: 30px; font-size: 20px;"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>© 2025 Kids Learning World. All rights reserved.</div>
+    <div class="footer-badges">
+      <span class="badge">Vocabulary • Spelling</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/word-scramble.js"></script>
+</body>
+</html>
